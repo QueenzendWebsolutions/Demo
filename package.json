@@ -4,11 +4,24 @@
   "description": "",
   "cordova": {
     "id": "com-droidada-plugins-temperature",
-    "platforms": []
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QueenzendWebsolutions/Demo.git"
   },
   "keywords": [
-    "ecosystem:cordova"
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "Jayashree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QueenzendWebsolutions/Demo/issues"
+  },
+  "homepage": "https://github.com/QueenzendWebsolutions/Demo#readme"
 }

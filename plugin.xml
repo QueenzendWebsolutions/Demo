@@ -1,7 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="com-droidada-plugins-temperature" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>Temperature</name>
-    <js-module name="Temperature" src="www/Temperature.js">
-        <clobbers target="cordova.plugins.Temperature" />
-    </js-module>
-</plugin>
+<plugin id="com-droidada-plugins-temperature" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>Temperature</name><js-module name="Temperature" src="www/Temperature.js"><clobbers target="cordova.plugins.Temperature" /></js-module><platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="Temperature"><param name="android-package" value="com-droidada-plugins-temperature.Temperature" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml" /><source-file src="src/android/Temperature.java" target-dir="src/com-droidada-plugins-temperature/Temperature" /></platform><platform name="ios"><config-file parent="/*" target="config.xml"><feature name="Temperature"><param name="ios-package" value="Temperature" /></feature></config-file><source-file src="src/ios/Temperature.m" /></platform></plugin>
