@@ -6,6 +6,10 @@
     "id": "com-droidada-plugins-temperature",
     "platforms": []
   },
+   "repository": {
+        "type": "git",
+        "url": "https://github.com/QueenzendWebsolutions/Demo"
+    },
   "keywords": [
     "ecosystem:cordova"
   ],
