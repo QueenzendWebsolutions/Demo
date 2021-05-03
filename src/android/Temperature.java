@@ -6,7 +6,7 @@ import org.apache.cordova.CallbackContext;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
+import android.widget.Toast;
 /**
  * This class echoes a string called from JavaScript.
  */
@@ -28,5 +28,10 @@ public class Temperature extends CordovaPlugin {
         } else {
             callbackContext.error("Expected one non-empty string argument.");
         }
+    }
+     public void displayToast(Context c, String message){
+
+        Toast.makeText(c,message, Toast.LENGTH_SHORT).show();
+        // use ToasterMessage.s(LoginActivity.this, "Welcome to Marketing Platform");
     }
 }
